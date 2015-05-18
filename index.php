@@ -33,9 +33,8 @@ $izdelki = array(
 
 <body>
 <div class="container">
-    <div class="col-sm-4 header">
-        <h1>Eko</h1>
-        <h2>spletna trgovina</h2>        
+    <div class="header">
+        <h1><strong>Eko</strong>spletna trgovina</h1>
     </div>
     
     <?php
@@ -66,7 +65,7 @@ $izdelki = array(
     else {
 
         ?>
-        <div class="col-sm-4 vsebina">
+        <div class="col-sm-12 vsebina">
         <p>Izberi izdelek:</p>
         <!-- forma za izbiro izdelkov -->
         <form action="index.php" method="post">
@@ -79,8 +78,8 @@ $izdelki = array(
                     ?>
                 </select>
             </div>
-            <div class="form-group kolicina">
-                <label for="naslov">Količina</label>
+            <div class="form-group podatki">
+                <label for="naslov" class="tekst">Količina</label>
                 <input type="text" name="kolicina" class="form-control" id="kolicina" placeholder="Količina">
             </div>
 
@@ -88,12 +87,12 @@ $izdelki = array(
                 <p>Naslov:</p>
 
                 <div class="form-group">
-                    <label for="contact_name">Ime in priimek</label>
+                    <label for="contact_name" class="tekst">Ime in priimek</label>
                     <input type="text" name="ime" class="form-control" id="contact_name" placeholder="Vaše ime">
                 </div>
 
                 <div class="form-group">
-                    <label for="naslov">Naslov</label>
+                    <label for="naslov" class="tekst">Naslov</label>
                     <input type="text" name="naslov" class="form-control" id="naslov" placeholder="Vaš naslov">
                 </div>
 
