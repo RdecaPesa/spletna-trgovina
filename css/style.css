@@ -1,0 +1,97 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	color: grey;
+	margin: 0;
+}
+
+.header {
+	background-color: #73d1b7;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+	width: 100%;
+}
+
+.vsebina {
+	margin-top: 20px;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 50px;
+	color: white;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 30px;
+	color: white;
+	margin-top: -20px;
+}
+
+
+
+.racun {
+	margin-top: 50px;
+	font-weight: 600;
+	font-size: 30px;
+	color: #73d1b7;
+}
+
+.obvestilo {
+	font-weight: 300;
+	font-size: 20px;
+	color: #73d1b7;
+
+}
+
+.selectpicker {
+	width: 200px;
+}
+
+.podatki {
+	margin-top: 50px;
+}
+
+.form-group {
+	width: 50%;
+}
+
+.kolicina {
+	width: 80px;
+}
+
+.btn {
+	color: grey;
+}
+
+.btn:hover {
+	background-color: #73d1b7;
+	color: white;
+	border-color: #73d1b7;
+}
+
+.obvestilo {
+	font-weight: 300;
+	font-size: 25px;
+}
+
+a {
+	font-size: 15px;
+	font-weight: 400;
+	color: grey;
+}
+
+a:hover {
+	color: grey;
+}
+
+.nazaj {
+	margin-top: 50px;
+}
+
+em {
+	color: #73d1b7;
+	font-size: 20px;
+	font-weight: 800;
+}
+
